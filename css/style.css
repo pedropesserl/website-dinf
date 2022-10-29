@@ -13,6 +13,7 @@ header {
 	background-color: #dff6ff;
 	color: #256d85;
 	padding: 0;
+	height: 9vh;
 }
 
 a {
@@ -31,12 +32,12 @@ a:hover {
 article {
 	display: flex;
 	align-items: stretch;
+	height: 84.5vh;
 }
 
 nav {
 	background-color: #06283d;
 	padding: .5em;
-	height: 100vh;
 	width: 15vw;
 }
 
@@ -46,7 +47,25 @@ nav {
 }
 
 main {
-	padding: .5em;
+	padding: 1em;
 	padding-left: 2em;
 	padding-right: 2em;
+}
+
+#titulomain {
+	margin: 0;
+}
+
+footer {
+	background-color: #dff6ff;
+	color: #256d85;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 5px;
+	height: 5vh;
+}
+
+#pfooter {
+	margin: 0;
 }
