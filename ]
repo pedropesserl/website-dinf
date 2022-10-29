@@ -16,7 +16,6 @@
 			<nav>
 				<h3 class="tcentralizado">Pedro F. Pesserl</h3>
 				<ul id="navul">
-					<li><a href="index.html">Início</a></li>
 					<li><a href="sobre-mim.html">Sobre mim</a></li>
 					<li><a href="https://youtube.com" target="_blank">teste</a></li>
 				</ul>
