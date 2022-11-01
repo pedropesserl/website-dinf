@@ -1,24 +1,32 @@
 body {
-	background-color: #256d85;
-	color: #dff6ff;
+	background-color: #425f57;
+	color: #e8e8e8;
 	font-family: "Lato", sans-serif;
 	font-size: 23px;
 	margin: 0;
+	height: calc(100vh - .8rem);
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	padding: .4rem;
+	position: relative;
 }
 
 header {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	background-color: #dff6ff;
-	color: #256d85;
+	background-color: #25423a;
+	color: #a8e890;
 	padding: 0;
-	height: 9vh;
+	height: 4.2rem;
+	width: 100%;
 }
 
 a {
-	color: #47b5ff;
+	color: #005e1e;
 	text-decoration: none;
+	font-weight: bold;
 }
 
 a:hover {
@@ -26,24 +34,32 @@ a:hover {
 }
 
 .tcentralizado {
-	margin: .2em;
+	margin: 0;
+}
+
+h2 {
+	color: #a8e890;
+}
+h3, ul {
+	color: #172b26;
 }
 
 article {
 	display: flex;
 	align-items: stretch;
-	height: 84.5vh;
+	flex-grow: 1;
 }
 
 nav {
-	background-color: #06283d;
-	padding: .5em;
+	background-color: #88ba98;
+	padding: 1rem;
 	width: 15vw;
+	border: none;
+	border-radius: 1rem;
 }
 
 #navul {
 	padding-left: 20px;
-	font-size: .9em;
 }
 
 main {
@@ -57,13 +73,13 @@ main {
 }
 
 footer {
-	background-color: #dff6ff;
-	color: #256d85;
+	background-color: #294d40;
+	color: #a8e890;
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	padding: 5px;
-	height: 5vh;
+	height: 2em;
+	width: 100%;
 }
 
 #pfooter {
