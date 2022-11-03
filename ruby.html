@@ -20,12 +20,32 @@
 					<li><a href="index.html">Início</a></li>
 					<li><a href="sobre-mim.html">Sobre mim</a></li>
 					<li><a href="ruby.html">Fibonacci em Ruby</a></li>
-				</ul>
+			</ul>
 			</nav>
 
 			<main>
-				<h2 id="titulomain" class="tcentralizado">FALA GRANDE 👋</h2>
-				<p>Fiz esse website para praticar minhas web-dev skills após receber o briefing da meeting com os stakeholders do ADEGA Project. Acabou virando minha página pessoal.</p>
+				<h2 id="titulomain" class="tcentralizado">Fibonacci em Ruby</h2>
+				<p>Esse é um programa simples em Ruby que imprime n números da sequência de Fibonacci:</p>
+				<pre><code id="fibonacci">
+def fibonacci(n)
+    if (n &lt; 1)
+        return
+    end
+
+    ant = 1
+    fib = 0
+
+    for i in 1..n
+        fib = fib + ant
+        ant = fib - ant
+        puts "#{fib}"
+    end
+end
+
+puts "Quantos numeros da sequencia voce quer computar?"
+numero = gets.to_i
+fibonacci(numero)
+				</code></pre>
 			</main>
 		</article>
 		<footer>
@@ -44,3 +64,4 @@
   		</footer>
 	</body>
 </html>
+
