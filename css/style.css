@@ -86,14 +86,21 @@ nav {
 }
 
 main {
-	padding: 1em;
-	padding-left: 2em;
-	padding-right: 2em;
+	padding: 1rem;
+	padding-left: 2.5rem;
+	padding-right: 2.5rem;
+}
+
+pre {
+	background-color: #608a7e;
+	margin: 0;
+	padding: 1rem;
+	border: none;
+	border-radius: .6rem;
 }
 
 #fibonacci {
 	font-family: 'Fira Mono';
-
 }
 
 #titulomain {
@@ -106,7 +113,7 @@ footer {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	height: 2em;
+	height: 2.8rem;
 	width: 100%;
 	border: none;
 	border-radius: .6rem;
