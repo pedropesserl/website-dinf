@@ -8,6 +8,7 @@
 		<link href="css/style.css" rel="stylesheet">
 		<title>Pedro F. Pesserl</title>
 		<script src="https://kit.fontawesome.com/a49fca7a30.js" crossorigin="anonymous"></script>
+		<script src="script.js" defer></script>
 	</head>
 	<body>
 		<header>
@@ -18,15 +19,13 @@
 			<nav>
 				<h3 class="tcentralizado">Pedro F. Pesserl</h3>
 				<ul id="navul">
-					<li><a href="index.html">Início</a></li>
-					<li><a href="sobre-mim.html">Sobre mim</a></li>
-					<li><a href="ruby.html">Fibonacci em Ruby</a></li>
+					<li><button id="inicio" type="button">Início</button></li>
+					<li><button id="sobre-mim" type="button">Sobre mim</button></li>
+					<li><button id="ruby" type="button">Fibonacci em Ruby</button></li>
 				</ul>
 			</nav>
-
 			<main>
-				<h2 id="titulomain" class="tcentralizado">FALA GRANDE 👋</h2>
-				<p>Fiz esse website para praticar minhas web-dev skills após receber o briefing da meeting com os stakeholders do ADEGA Project. Acabou virando minha página pessoal.</p>
+				<iframe id="main_iframe" src="inicio.html"></iframe>
 			</main>
 		</article>
 		<footer>

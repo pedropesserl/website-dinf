@@ -6,28 +6,12 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link href="css/fonts.css" rel="stylesheet">
 		<link href="css/style.css" rel="stylesheet">
-		<title>Pedro F. Pesserl</title>
 		<script src="https://kit.fontawesome.com/a49fca7a30.js" crossorigin="anonymous"></script>
 	</head>
-	<body>
-		<header>
-  			<h1 class="tcentralizado">Boa noite pessoal.</h1>
-  		</header>
-
-		<article>	
-			<nav>
-				<h3 class="tcentralizado">Pedro F. Pesserl</h3>
-				<ul id="navul">
-					<li><a href="index.html">Início</a></li>
-					<li><a href="sobre-mim.html">Sobre mim</a></li>
-					<li><a href="ruby.html">Fibonacci em Ruby</a></li>
-			</ul>
-			</nav>
-
-			<main>
-				<h2 id="titulomain" class="tcentralizado">Fibonacci em Ruby</h2>
-				<p>Esse é um programa simples em Ruby que imprime n números da sequência de Fibonacci:</p>
-				<pre><code id="fibonacci">def fibonacci(n)
+	<body class="pagina">
+		<h2 id="titulomain" class="tcentralizado">Fibonacci em Ruby</h2>
+		<p>Esse é um programa simples em Ruby que imprime n números da sequência de Fibonacci:</p>
+		<pre><code id="fibonacci">def fibonacci(n)
     if (n &lt; 1)
         return
     end
@@ -45,21 +29,5 @@ end
 puts "Quantos numeros da sequencia voce quer computar?"
 numero = gets.to_i
 fibonacci(numero)</code></pre>
-			</main>
-		</article>
-		<footer>
-			<p id="pfooter">
-				<a class="contato" target="_blank" href="https://github.com/pedropesserl">
-					<i class="fab fa-github"></i> Github</a>        &nbsp;| &nbsp;
-				<a class="contato" target="_blank" href="https://gitlab.c3sl.ufpr.br/pfp22">
-					<i class="fab fa-gitlab"></i> Gitlab</a>        &nbsp;| &nbsp;
-				<a class="contato" target="_blank" href="https://twitter.com/pedropesserl">
-					<i class="fab fa-twitter"></i> Twitter</a>      &nbsp;| &nbsp;
-				<a class="contato" target="_blank" href="https://linkedin.com/in/pedropesserl">
-					<i class="fab fa-linkedin-in"></i> LinkedIn</a> &nbsp;| &nbsp;
-				<a class="contato" target="_blank" href="mailto:fpesserl7@gmail.com">
-					<i class="fas fa-envelope"></i> Gmail</a>
-			</p>
-  		</footer>
 	</body>
 </html>
