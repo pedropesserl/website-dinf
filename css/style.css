@@ -64,7 +64,22 @@ nav {
 }
 
 #navul {
-	padding-left: 20px;
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+	padding-left: 1.3rem;
+	line-height: 2.7rem;
+}
+
+.botaonav {
+	background-color: #c0f0cf;
+	color: #172b26;
+	font-size: 1.1rem;
+	padding-top: .3rem;
+	padding-bottom: .3rem;
+	padding-right: .7rem;
+	padding-left: .7rem;
+	border: none;
+	border-radius: .4rem;
 }
 
 main {
