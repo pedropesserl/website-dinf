@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="utf-8">
+		<meta name="Author" content="Pedro Folloni Pesserl">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link href="css/fonts.css" rel="stylesheet">
+		<link href="css/style.css" rel="stylesheet">
+		<script src="https://kit.fontawesome.com/a49fca7a30.js" crossorigin="anonymous"></script>
+	</head>
+	<body class="pagina">
+		<h2 id="titulomain" class="tcentralizado">Ruby: Programação Orientada a Objetos</h2>
+		<p>Esse programa cria uma classe Animal com duas classes filhas: Pessoa e Cachorro. PESSOA E CACHORRO!</p>
+		<pre><code id="fibonacci">class Animal
+end
+
+class Pessoa &lt; Animal
+  attr_accessor :name
+
+  def initialize(nome)
+    self.name = nome
+  end
+
+  def passearComCachorro(cachorro)
+    puts "#{self.name} está passeando com #{cachorro.name}."
+  end
+end
+
+class Cachorro &lt; Animal
+  attr_accessor :name
+
+  def initialize(nome)
+    self.name = nome
+  end
+end
+
+nedio = Pessoa.new("Nédio")
+doguinho = Cachorro.new("Doguinho")
+
+nedio.passearComCachorro(doguinho)
+</code></pre>
+	</body>
+</html>
