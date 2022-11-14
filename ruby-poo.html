@@ -12,32 +12,30 @@
 		<h2 id="titulomain" class="tcentralizado">Ruby: Programação Orientada a Objetos</h2>
 		<p>Esse programa cria uma classe Animal com duas classes filhas: Pessoa e Cachorro. PESSOA E CACHORRO!</p>
 		<pre><code id="fibonacci">class Animal
-end
-
-class Pessoa &lt; Animal
   attr_accessor :name
 
   def initialize(nome)
     self.name = nome
   end
+end
 
+class Pessoa &lt; Animal
   def passearComCachorro(cachorro)
     puts "#{self.name} está passeando com #{cachorro.name}."
   end
 end
 
 class Cachorro &lt; Animal
-  attr_accessor :name
-
-  def initialize(nome)
-    self.name = nome
+  def latir()
+    puts "#{self.name} latiu: AUAUAUAU"
   end
 end
 
-nedio = Pessoa.new("Nédio")
+wanderley = Pessoa.new("Wanderley")
 doguinho = Cachorro.new("Doguinho")
 
-nedio.passearComCachorro(doguinho)
+wanderley.passearComCachorro(doguinho)
+doguinho.latir()
 </code></pre>
 	</body>
 </html>
